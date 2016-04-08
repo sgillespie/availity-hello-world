@@ -1,0 +1,50 @@
+{
+  "name": "availity-hello-world",
+  "version": "0.1.0",
+  "avVersion": "1.0.9",
+  "description": "A simple webapp demonstrating availity-toolkit.",
+  "private": true,
+  "author": {
+    "name": "Sean Gillespie",
+    "email": "sean@mistersg.net"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sgillespie/availity-hello-world.git"
+  },
+  "authors": [
+    {
+      "name": "Sean Gillespie",
+      "email": "sean@mistersg.net.com"
+    }
+  ],
+  "scripts": {
+    "start": "gulp av:default",
+    "tests": "gulp av:test",
+    "production": "cross-env NODE_ENV=production gulp av:release",
+    "staging": "cross-env NODE_ENV=staging gulp av:release",
+    "integration": "cross-env NODE_ENV=integration gulp av:release"
+  },
+  "devDependencies": {
+    "availity-workflow": "^1.2.8",
+    "cross-env": "1.0.7",
+    "eslint": "1.5.1",
+    "eslint-config-availity": "^1.0.1",
+    "gulp": "3.9.1"
+  },
+  "bugs": {
+    "url": "https://github.com/sgillespie/availity-hello-world/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/sgillespie/availity-hello-world#readme",
+  "_id": "availity-hello-world@0.1.0",
+  "keywords": [
+    "webapp",
+    "availity"
+  ],
+  "url": "ssh://git@github.com:sgillespie/availity-hello-world.git"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "availity-hello-world",
+  "version": "0.1.0",
+  "description": "A simple webapp demonstrating availity-toolkit.",
+  "license": "MIT",
+  "dependencies": {
+    "availity-angular": "^1.11.0",
+    "availity-uikit": "^1.1.0",
+    "html5shiv": "~3.7.2",
+    "respond": "~1.4.2"
+  },
+  "homepage": "https://github.com/availity/availity-toolkit",
+  "keywords": [
+    "webapp",
+    "availity"
+  ],
+  "resolutions": {
+    "bootstrap": "~3.3.4",
+    "angular": "1.2.28",
+    "angular-animate": "1.2.28",
+    "velocity": "~1.2.3",
+    "blueimp-file-upload": "9.10.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.28"
+  },
+  "url": "ssh://git@github.com:sgillespie/availity-hello-world.git",
+  "author": {
+    "name": "Sean Gillespie",
+    "email": "sean@mistersg.net"
+  },
+  "private": true
+}

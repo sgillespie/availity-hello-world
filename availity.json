@@ -1,0 +1,15 @@
+{
+  "name": "availity-hello-world",
+  "description": "A simple webapp demonstrating availity-toolkit.",
+  "version": "0.1.0",
+  "keywords": [
+    "webapp",
+    "availity"
+  ],
+  "url": "ssh://git@github.com:sgillespie/availity-hello-world.git",
+  "author": {
+    "name": "Sean Gillespie",
+    "email": "sean@mistersg.net"
+  },
+  "private": true
+}
