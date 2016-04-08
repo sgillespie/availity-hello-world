@@ -2,7 +2,7 @@
 
 'use strict';
 
-var app = require('../registration-service');
+var app = require('../helloworld-service');
 
 describe('registration', function() {
 

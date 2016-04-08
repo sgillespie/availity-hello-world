@@ -6,12 +6,10 @@ require('availity-angular');
 
 var app = require('../module');
 
-app.service('registrationService', function() {
-
+app.service('helloWorldService', function() {
   this.hello = function() {
     return 'hi';
   };
-
 });
 
 module.exports = app;
