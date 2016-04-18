@@ -1,3 +1,8 @@
 #!/bin/sh
 
-echo "This is the script that runs when building the docker"
+yum install -y bzip2
+
+npm install -g gulp
+npm install
+
+gulp av:build
